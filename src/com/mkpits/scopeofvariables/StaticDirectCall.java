@@ -15,4 +15,4 @@ public class StaticDirectCall {
 }
 // we can call static variable by three methods 
 //1 directly
-//2 
+//2 using className.variableName     by using this we can call our static variable in different classes also.
