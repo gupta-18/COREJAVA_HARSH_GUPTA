@@ -47,19 +47,12 @@ public class StaticMethod {
 	}
 
     public static void getAllData() {
-    	 String email = " harshg1807@gmail.com";
-         System.out.println("Your email is:-" + email);
-         
-         long number = 6394550077l;
- 		System.out.println("Your phone number is:-" + number );
- 		
- 		char gender = 'M';
-		System.out.println("Your gender is:-" + gender );
-         
-		String password = "@qwerty234";
-		System.out.println("Your password is:-" + password );
-		
-		 String name ="Harsh";
-			System.out.println("Your name is:-" + name );
+    	getFirstName();
+		getLastName();
+		getEmail();
+		getMobile();
+		getGender();
+		getPassword();
+    	 
     }
 }

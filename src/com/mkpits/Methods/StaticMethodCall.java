@@ -18,6 +18,12 @@ public class StaticMethodCall {
 		StaticMethod call = new StaticMethod();
 		System.out.println("This is calling by objectref.methodName");
 		call.getAllData();
+		
+		
+		
+		// calling by instance
+		System.out.println("calling by instance");
+		new StaticMethod().getEmail();
 
 	}
 
