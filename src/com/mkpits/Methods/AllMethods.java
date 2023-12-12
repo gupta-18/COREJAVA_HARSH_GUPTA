@@ -3,7 +3,6 @@ package com.mkpits.Methods;
 public class AllMethods {
 
 	public static void main(String[] args) {
-		
 		AllMethods obj = new AllMethods();
 		
 		//non-staic call can be only possible by making object
@@ -22,7 +21,6 @@ public class AllMethods {
 //return type with no parameter	
     public  char getGender() {
     char ch = 'M';
-    
     return ch;	
 	}
 //no return type with no parameter
